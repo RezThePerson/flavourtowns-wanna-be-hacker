@@ -4,6 +4,7 @@ the naming conventions and bassed on the minecraft things not the voting things 
 
 - Getting the raw html from the server - `generate_seed`
 - Parsing the html to show the project in the tool - `load_seed`
+- `generate_seed` + `load_seed` - `fetch_seed`
 - Displaying the project to the user - `display_seed`
 - User selecting the project to look into it more - `play_seed`
 - User discarding the project - `trash_seed`

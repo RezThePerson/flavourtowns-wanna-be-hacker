@@ -9,7 +9,7 @@
 	});
 
 	async function load_seeds() {
-		const response = await fetch(`/api/generate_seeds`, {
+		const response = await fetch(`/api/fetch_seed`, {
 			method: "GET",
 			headers: {
 				auth: auth,
@@ -21,6 +21,6 @@
 	}
 </script>
 
-<button onclick={load_seeds}>load seed</button>
+<button onclick={load_seeds}>fetch_seed</button>
 
 {body}
